@@ -1,5 +1,6 @@
 
 function tocaSom(idSom) {
+
     const som = document.querySelector(idSom);
 
     if (som && som.localName === 'audio') {
@@ -43,5 +44,4 @@ for(let index = 0; index < listaDeTeclas.length; index++) {
         tecla.classList.remove('ativa');
 
     }
-}
 

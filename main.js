@@ -17,7 +17,7 @@ function tocaSom(idSom) {
         // else {
         //     alert("Elemento não encontrado ou seletor não corresponde a um áudio!")
         // } 
-    }
+}
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
@@ -44,4 +44,5 @@ for(let index = 0; index < listaDeTeclas.length; index++) {
         tecla.classList.remove('ativa');
 
     }
+}
 
